@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello！</h1>
+    <br/>
+    <h2>hel lo！</h2>
+    <h3>hello！</h3>
+    djhhhh<br>
+    我是<strong>加粗</strong>标签<br>
+    我是<b>加粗</b>标签 <em>倾斜</em> <i>qingxie</i>
+    <del>sdfdsfds</del>删除线
+    <s>shanchuxian</s>下划线
+    <ins>xiahuaxian</ins>
+    <u>xiahuaxian</u>
+    <br>
+    <div>大盒子标签div，一行只能有一个。</div>   
+     <!-- 重中之重 -->
+    <span>span标签小盒子，一行可以有好几个。</span>
+    <span>span标签小盒子，一行可以有好几个。</span>
+    <span>span标签小盒子，一行可以有好几个。</span>
+图像标签:
+<img src="images/wujing.png" title="我是队长吴京"/>
+<img src="images/wujing1.png" alt="找不到路径"/>
+<h4>width设置宽度</h4>
+<img src="images/wujing.png" width="50"/>
+<h4>height设置高度</h4>
+<h4>border给图片设置边框</h4>
+<img src="images/wujing.png" border="15"/>
+<h4>超链接 a href= </h4>
+<a href="http://www.baidu.com" target="_blank">百度</a> 
+<h4>空链接</h4>
+<a href="#">首页</a>
+<!-- 么么叽 -->
+<!-- 空格 &nbsp;
+<    &lt;
+>    &gt;  -->
+
+锚点链接<a href="#XXX">memeji</a>
+<h2 id="XXX">memeji</h2>
+<!-- 表格的用法
+<table> 行<tr> 单元格<td>      <th>表头单元格,会加粗,居中 
+-->
+
+<table align="center" border="1" cellpadding="50" cellspacing="0">
+    <!-- 一般情况下，cell padding和cell spacing都是0 我们一般用height和width  -->
+    <tr><th>姓名</th>   <th>性别</th>   <th>年龄</th></tr>
+    <tr><td>吴京</td>   <td>男</td>   <td>35</td></tr>
+    
+</table>
+<table>
+<thead>
+    <tr>
+<th>城市</th> <th>工资</th>
+    </tr> 
+</thead>
+<tbody>
+ <tr>
+    <td>北京</td> <td>20k</td>    
+    </tr> 
+    <tr>
+     <td>上海</td> <td>18k</td>   
+    </tr> 
+</tbody>
+
+</table>
+跨行合并：rowspan="合并单元格数量"
+跨列合并：colspan=
+合并之后要删除多余的单元格，从合并的第一个单元格写代码
+<h4>列表标签</h4>
+<ul>  
+      <!--       ul无序列表   里面只能放li标签 -->
+    <li>kunkun</li>
+    <li>ikun</li>
+    <li>吕德华</li>
+    <li></li>
+    <li></li>
+</ul>
+<!-- 有序列表ol标签   里面只能包含li     li里面可以包含任何标签 -->
+ <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+ </ol>
+<!-- 自定义列表 -->
+<!-- dl 里面只能包含dt和<dd></dd> -->
+<dl>
+<dt></dt>
+<dd></dd>
+<dd></dd>
+<dd></dd>
+</dl>
+<h4>表单标签</h4>
+<!-- form <form action= url地址    method= 提交方式get/post  name= 表单域名称   > 
+    <input type="    ">表单元素
+-->
+<form>
+    用户名<input type="text" value="请输入用户名" name="usename">  <br>
+    密码<input type="password" name="psd" maxlength="10"><br>
+    单选<input type="radio" name="ssex">nan<input type="radio" name="sex">nv<input type="radio" name="sex">kun
+<br>复选框<input type="checkbox">111
+<!-- 默认勾选  -->
+<input type="checkbox" checked="checked">222
+<input type="submit">提交
+<!-- 将整个表单域提交给后台服务器 -->
+<input type="reset">重置
+<!-- 全部重新提交 -->
+<input type="button" value="按钮">
+<br>上传头像：<input type="file">
+<!-- lable标签和input标签一起使用,使得点击文字选择
+<label for="111">111</label>
+<input id="111"> -->
+<!-- 下拉 -->
+籍贯<select>
+    <option selected="selected"  value="">北京</option>
+    <option value="">天津</option>
+    <option value="">上海</option>
+    <option value="">河南</option>
+    <option value="">武汉</option>
+</select>
+<br>文本域<textarea rows="5" cols="8">文本内容 </textarea>
+
+
+
+
+
+
+</form>
+
+
+
+</body>
+</html>
+
+
+
